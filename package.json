@@ -4,8 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "server": "nodemon server/index.js",
-    "client": "node client/index.js"
+    "server": "nodemon example/server/index.js",
+    "client": "node example/client/index.js"
   },
   "dependencies": {
     "body-parser": "^1.18.3",

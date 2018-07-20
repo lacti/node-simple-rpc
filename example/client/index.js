@@ -1,4 +1,4 @@
-const proxy = require('../lib/proxy');
+const proxy = require('../../lib/proxy');
 const rpcProxy = proxy('http://localhost:8192')(require('./interface'));
 
 (async () => {
